@@ -1,0 +1,261 @@
+/* @import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*global*/
+:root{
+	--gray:#413960;
+	--eash:#6C6B6B;
+	--green:#008000;
+	--Black:#000000;
+	--bg   :#F0FFF0;
+	--red  : #FD511A;
+	--white: white;
+	--rob: "Roboto", sans-serif;
+	--pop: 'Poppins', sans-serif;
+}
+/*global*/
+
+/*common css*/
+body{
+	font-family: var(--pop);
+	font-size:16px;            
+	font-weight:400;        
+	color: var(--Black);
+}
+/*global*/
+
+/*header strat */
+header{ 
+	background-color:var(--bg);
+	padding:15px 0;  
+}
+.c-nav{}
+.n-brnad{}
+.logo{}  
+.img-h1{ 
+	font-family: var(--pop);
+	font-size:24px;
+	font-weight: 700;
+}
+.menu{} 
+
+.menu ul li a {
+	display: inline-block;
+	color: var(--Black) !important;
+	font-family: var(--pop);
+	font-size: 16px;
+	font-weight: 400;
+	padding: 0 20px !important;
+}
+.menu ul li a:hover {
+	color: var(--red)!important;
+}
+
+.btn-costome{
+	font-family:var(--rob) !important;      
+	border-radius: 24px;
+	background-color: var(--green)!important;
+	color: var(--white)!important;
+}
+.btn-cs{
+	margin-left: 10px !important;
+    padding: 12px 28px !important; 
+}
+
+.btn-costome:hover{
+	color: var(--white);
+	background-color: var(--red);
+}
+
+.btn-costome:active {
+	background-color: var(--red)!important;
+	color: var(--white)!important;
+}
+/*header end */
+/*Banner strat */
+.banner{
+	padding-top: 60px !important;
+	padding-bottom: 50px !important;
+	background-color:var(--bg);
+}
+.b-text{}
+.b-p1{
+	color: var(--red);
+}
+.b-h1{
+	padding: 10px 105px 20px 0;
+	color: var(--Black);
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 70px;
+}
+.b-h1 span{
+	color: var(--green);
+}
+.b-p2{
+	color: var(--eash);
+	line-height: 30px;
+}
+.cs-btn { 
+	margin-top: 16px !important;
+	padding: 12px 36px;
+}
+
+.b-img{}
+/*Banner end */
+
+/*Features section  strat*/
+.feature{}
+.pb-100 {
+	margin-bottom:100px;
+}
+.f-item {
+	margin: 40px 0 0;
+	padding: 55px 0 55px;
+	background-color:var(--bg);
+}
+.f-img{}
+
+.f-img h2{
+	margin:20px 0 0;
+	font-family: var(--pop);
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--Black);
+}
+.f-img p{
+	color: var(--Black);
+}
+.f-item:hover{
+   background-color: var(--white);
+   box-shadow: 0px 20px 40px 0px #0000001A;
+}
+/*Features section end*/
+/*course section strat */
+.course{}
+
+.course-title{}
+
+.course-title h1 {
+	font-family: var(--pop);
+	font-size: 36px !important;
+	font-weight: 700 !important;
+}
+.course-item{
+	margin: 60px 0 0;
+	padding: 25px 20px 30px ;
+	border-radius: 18px;
+	box-shadow: 0px 10px 40px 0px #0000001A;
+}
+.course-img{}
+.course-img img {
+   border-radius: 11px;
+}
+
+.course-h2{
+	margin: 25px 0 5px !important;
+	font-family: var(--pop);
+	font-size: 24px;
+	font-weight: 500;
+	color: var(--Black);
+}
+.course-p{}
+
+.course-btn{
+	margin: 20px 0 35px ;
+	font-family: var(--rob) !important;
+	padding: 8px 28px ;
+	border-radius: 33px;
+}
+
+.course-footer {}
+
+.f-left img, .f-right img {}
+
+.f-left span, .f-right span {
+	font-weight: 500;
+}
+
+/*course  section end*/
+
+/*testimonial strat*/
+.t-1
+.testimoni {
+	 
+}
+
+.t-item {
+	margin-top: 40px;
+	 
+}
+
+.t-img {
+ 
+}
+
+.t-img img {
+	width: 100%;
+ 
+}
+
+.t-text {
+ 
+}
+
+.t-text p {
+	 margin: 0 30px;
+}
+
+/*testimonial end*/
+/*footer top start*/
+.footer-top { 
+  padding: 55px 0 55px;  
+  background-color: #282531;
+}
+
+.ft-detels {
+  padding-right: 115px;
+}
+
+.ft-detels p {
+	 
+	line-height: 30px;
+  color: white;
+}
+
+.ft-link {
+
+  
+}
+
+.ft-link h2 {
+  color: white;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.ft-link ul li a {
+	display: inline-block;
+  margin-bottom: 8px;
+  line-height: 30px;  
+  color: white;
+  text-decoration: none;
+}
+/*footer top end*/
+/*footer strat*/
+footer{
+	padding: 25px 0 30px;
+	background-color:#282531;
+
+}
+footer p{
+	color: var(--white);
+
+}
+footer a {
+	text-decoration: none;
+	color: var(--white);
+}
+
+/*footer end*/
